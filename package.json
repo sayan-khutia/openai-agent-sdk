@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node --watch index.js"
+    "dev": "node init && node --watch index.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "@openai/agents": "^0.3.7",
     "axios": "^1.13.2",
     "dotenv": "^17.2.3",
+    "node-fetch": "^3.3.2",
     "openai": "^6.15.0",
     "zod": "^3.25.76"
   }
